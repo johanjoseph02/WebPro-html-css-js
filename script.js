@@ -1,3 +1,9 @@
+console.log("Hello there, fellow inspector");
+console.log(".");
+console.log(".");
+console.log("Welcome to Adder.io")
+console.log("Designed and Developed by Johan Mathew Joseph")
+console.log(".");
 function add() 
 {
     event.preventDefault();
