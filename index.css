@@ -58,7 +58,7 @@ navbar
     font-family: 'Poppins', sans-serif; 
     border-width: 1px; 
     border-style: solid; 
-    border-color: #1e1e1e;
+    border-color: white;
     border-radius: 5px; 
     color: white; 
     margin-top: 15px; 
@@ -68,7 +68,7 @@ navbar
 }
 #subm:hover
 {
-    font: weight 500px;;
+    border-color: #1e1e1e;
     background-color: #0085FF;
     color: #1e1e1e;
     opacity: 10;
