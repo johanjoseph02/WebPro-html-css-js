@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        
+    </style>
+
+    <title>Adder.io</title>
+</head>
+
+<body>
+    <nav>
+        <h1 style="font-size: 50px;">Add Two Numbers</h1>
+        <p>
+            Developed by <a href="https://www.youtube.com/watch?v=xy_NKN75Jhw" id="dev">Johan Mathew Joseph</a>
+        </p>
+    </nav>
+
+    <form onsubmit="add()" class="form">
+        <input type="number" step="any" id="a" placeholder="first number" />
+        <input type="number" step="any" id="b" placeholder="second number" /> <br/>
+        <button type="submit" id="subm">Submit</button>
+    </form>
+
+    <p id="anslabel" style="display: none">Sum<br/><input id="ansbox" style="display: none" /></p>
+    <script src="./script.js"></script>
+</body>
+
+</html>
